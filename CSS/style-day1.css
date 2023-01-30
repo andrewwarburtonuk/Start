@@ -1,0 +1,31 @@
+
+/*
+font-family: 'Raleway', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Unbounded', cursive;
+
+. class
+#id
+*/
+
+
+p
+    {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bolder ;
+    }
+
+    div p {
+        color: rgb(111, 109, 235);
+    }
+div> p > a/* > paragraph in a div ~genral select siblings , multiple items*/
+    {
+        color: rgb(229, 248, 20);
+       
+    }
+
+h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: darkblue;
+
+}

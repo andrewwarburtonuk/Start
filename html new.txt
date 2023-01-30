@@ -1,0 +1,12 @@
+<figure style="float: left>
+
+</figure>
+
+
+[12:22] Timothy Jones
+Create a div, add a h1, a p and highlight (background-color) the ingredients of a basic cake each in it's own span 
+
+[12:23] Timothy Jones
+You have been approached by a local company, that produces jam and other spreads, to create a home page for their business.
+The requirements from the company are that it needs a picture of a strawberry and the general theme should strawberry themed.
+

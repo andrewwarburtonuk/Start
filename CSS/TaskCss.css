@@ -1,0 +1,8 @@
+li{
+
+    margin-left: 5px;
+    display: inline-block;
+    transform: scaleY(11.25);
+    font-size: 1.5625em;
+    transform-origin: 10% 20%;
+}

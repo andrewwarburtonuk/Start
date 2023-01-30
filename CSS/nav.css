@@ -1,0 +1,40 @@
+img{
+    width: 100px;
+    height: 20%;
+    display: inline;
+    float: left;
+;
+}
+header{
+    width: 100%;
+    top: 0px;
+    margin: 0px;
+    position: sticky;
+    background-color: rgb(238, 115, 115);
+}
+
+
+nav{display: inline;
+ margin-left: 2%;
+}
+ul{
+    display: inline;
+
+}
+li{
+ 
+    list-style-type: square;
+    display: inline;
+}
+h1{
+    display: inline;
+    margin-right: 10px;
+    margin-left: 30%;
+ 
+    
+}
+p{
+    display: inline;
+  
+ 
+}

@@ -1,0 +1,230 @@
+:root{
+    overflow: hidden;
+  --Grey:#848484;
+  --Redish: #da0e0e;
+  --position: 90%;
+}
+
+
+img{
+    width: 100px;
+    height: 90px;
+
+}
+.FlexContainer{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 400px;
+   align-items: center;
+   
+}
+.Flexbox{
+width: 10%;
+}
+
+
+#sel :nth-child(3n){
+  color: blue;
+}
+p{
+
+  font-size: 25px;
+  box-shadow:  0px 0px 2px 2px rgb(255, 255, 255);
+  text-shadow: 5px 5px 2px var(--Grey);
+}
+h1{  text-shadow: 5px 5px 2px rgb(129, 129, 129);}
+
+
+/*#Menu{
+ 
+  box-shadow:  0px 0px 2px 2px rgb(255, 255, 255);
+ 
+  animation-play-state: paused; 
+ } */
+
+
+@keyframes MenuOut{
+  from{
+    margin-left: 65%;
+  }
+  to{
+    margin-left: 65%;
+ 
+  
+  }
+}
+
+#Menu{
+  margin-left: 94%;
+ 
+  white-space: nowrap;
+  max-width: 200px;
+  height: 50px;
+
+
+ /* margin-left: 90%; */
+  /* white-space: nowrap;
+  max-width: 200px;
+  height: 50px;
+  animation-play-state: running;
+  animation-fill-mode: forwards; */
+
+} 
+/* #MenuC{
+
+  margin-left: 90%;
+  margin-right: 200px;
+  position: relative;
+  max-width: 200px;
+  height: 50px;
+  white-space: nowrap;
+  animation-play-state: paused;
+
+} */
+/* #Menu :nth-child(1):active{
+  visibility: hidden;
+}
+#Menu :nth-child(3){
+  visibility: visible;
+
+} */
+
+
+
+@keyframes MenuOut{
+  from{
+    margin-left: 65%;
+  }
+  to{
+    margin-left: 90%;
+ 
+  
+  }
+}
+
+@keyframes MenuOut2{
+  from{
+    margin-left: 16%;
+  }
+  to{
+    margin-left: -400%;
+   
+   
+  
+  }
+}
+
+/* #MenuC:hover{
+  animation-name:  MenuOut2;
+  animation-duration: 0.5s;
+ 
+  animation-play-state: running;
+  animation-fill-mode: forwards;
+
+
+} */
+/* #norm2{
+  
+  animation-play-state:running;
+  animation-name: MenuOut2;
+  animation-duration:  3.5s;
+  animation-timing-function: 5s;
+  animation-fill-mode: forwards; 
+
+} */
+
+#norm2:focus{
+  animation-play-state:running;
+  animation-name: MenuOut2;
+  animation-duration:  3.5s;
+  animation-timing-function: 5s;
+  animation-fill-mode: forwards; 
+  
+}
+#norm2:visited{
+  margin-left: 17%;
+}
+
+
+
+/* #Menu::after {
+  c
+
+} */
+
+
+/* #Menu:hover{ */
+  /* animation-name: MenuOut; */
+  /* animation-duration:  0.5s; */
+ 
+  /* animation-play-state: running; */
+  /* animation-fill-mode: forwards;
+ */
+/* #norm{
+  margin-left: 5%;
+  max-width: 500px;
+  display: inline-block;
+
+  white-space: nowrap;
+  flex-wrap:nowrap;
+
+
+
+} */
+
+
+
+@keyframes simple{
+from{
+  background-color: black;
+  color: chartreuse;
+}
+to{
+  background-color: var(--Redish) ;
+  color: blue;
+
+}
+}
+@keyframes Buton {
+  from{  padding: 6px;
+  }
+  to{
+    padding: 16px;
+    
+  }
+  
+}
+
+
+
+body{
+ animation-name: simple;
+ animation-duration:  4s;
+
+}
+
+
+
+ 
+ @media(min-width:481px) and (max-width:800px)
+ {
+   body{
+   background-color: var(--Redish);
+   }
+ }
+
+@media (min-width:320px) and (max-width:480px)
+{
+  body{
+  background-color: var(--Redish);
+  }
+}
+@media(max-width:319px)
+{
+  body{
+  background-color: var(--Grey);
+  }
+}
