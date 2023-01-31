@@ -50,7 +50,7 @@ h1{
 }
 body{
 
-background: url('/Images/Flats.jpg');
+background: url('../Images/Flats.jpg');
 background-size: 30%;
 /*background: linear-gradient(to left, transparent 10px,  rgba(229, 248, 20, 0.19) , rgba(199, 14, 14, 0.207));*/
 }
