@@ -19,25 +19,25 @@
 
   @keyframes CaroAn{
     0%{
-      background-image: url(../Images/Music/OIP.jpg);
+      background-image: url(/Start/Images/Music/OIP.jpg);
       transition: background-image 1s;
       width: 474px;
       height:450px;
     }
     50%{
-      background-image: url(../Images/Music/OIP1.jpg);
+      background-image: url(/Start/Images/Music/OIP1.jpg);
       transition: background-image 1s;
       width: 474px;
       height:450px;
     }
     75%{
-      background-image: url(../Images/Music/OIP2.jpg);
+      background-image: url(/Start/Images/Music/OIP2.jpg);
       transition: background-image 1s;
       width: 474px;
       height:450px;
     }
     100%{
-      background-image: url(../Images/Music/OIP3.jpg);
+      background-image: url(/Start/Images/Music/OIP3.jpg);
       transition: background-image 1s;
       width: 474px;
       height:450px;
