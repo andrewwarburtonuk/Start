@@ -163,7 +163,7 @@ transition: transform 5s; */
 
 
 }
-.bok:active{    
+.bok:hover{    
   width: 140px;
   animation-name:  Pspec;
   animation-duration:  1.5s;
