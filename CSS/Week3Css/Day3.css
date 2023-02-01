@@ -1,0 +1,33 @@
+/* matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY()) */
+
+/*Mirrors image (reflection)#matrix_img:hover{ transform:matrix(-1, 0, 0, 1, 0, 0);
+     -ms-transform:matrix(-1, 0, 0, 1, 1, 1);  It is is used for internet explorer 9 
+     -webkit-transform:matrix(-1, 0, 0, 1, 1, 1); /* It is used for Safari and Chrome }*/
+
+     /* translate3d(tx, ty, tz) */
+
+     /* transform: rotate3d(-2, -1, -2, -360deg); Standard syntax */
+
+     /* transform: scale3d(3, 2, -3);* Standard syntax */
+
+     /* transform:translate3d(42px, -62px, -1350px); Standard syntax */
+
+     .chiled1 {grid-area: footer; background-color: blue;}
+     .chiled2{grid-area: lefty;  background-color: rgb(208, 255, 0);}
+     .chiled3{grid-area: lefty3;  background-color: rgb(46, 123, 34);}
+     .chiled4{grid-area: lefty4;  background-color: rgb(38, 25, 111);}
+
+
+     .grid-container{
+        display:grid;
+        grid-template-areas: 'footer footer footer' 
+                            'lefty3 lefty lefty4';
+        grid-template-columns: 10% 80% 10%;
+        grid-template-rows: 50% 50%;
+        gap: 0% 0%;
+        height: 200px;
+        right: 0px;
+        left: 0px;
+
+
+     }
