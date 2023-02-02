@@ -1,0 +1,143 @@
+
+/*-------------genral Styling--------------*/
+body{
+
+    background-color: aqua;
+}
+
+
+.headings{
+color: rgb(186, 175, 219);
+
+}
+
+/*-------grid system-------*/
+
+#grid-container{
+
+    display:grid;
+    grid-template-areas:
+    'header header header header header header'
+    '. hero hero hero hero .'
+    '. products products products products .'
+    '. info info info info .'
+    '. times times times times .'
+    'footer footer footer footer footer footer'
+    ;
+
+    grid-template-columns: 16.5% 16.5% 16.5% 16.5% 16.5% 16.5%;
+
+}
+
+header{
+    grid-area: header;
+    background-color: darkblue;
+    color: white;
+}
+#hero{
+    grid-area: hero;
+}
+#menu{ 
+    grid-area: products;
+}
+#info{ 
+    grid-area: info;
+}
+#times{
+    grid-area: times;
+
+}
+footer{ 
+    grid-area: footer;
+    background-color: darkblue;
+    color: white;
+}
+
+
+/* Header and navigation */
+h1{
+    display: inline;
+    margin:0px 10% 0px 35%; /*TRBL*/
+    font-size: 50px;
+
+}
+nav{
+    display: inline;
+    margin-left: 10%;
+}
+
+nav > a{
+
+    margin: 0% 1%;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/* Hero Section */
+#hero > img{
+width: 100%;
+margin: 20px 0 0 0;
+
+}
+
+#product-container{
+display:flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+
+}
+
+.card-item{
+    background-color: darkblue;
+    color: white;
+    margin-top: 10px;
+    margin-left: 2%;
+}
+
+#footer-container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+#contact{ width:300px;text-align: center;}
+#jobs{ width:300px;text-align: center}
+#socials{ width:300px;}
+
+/* .footer-item{
+
+
+} */
+#socials ul{
+    padding-left: 0px;
+
+}
+#socials li{
+    list-style-type: none;
+
+}
+#info-contain
+{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:center;
+    margin-top: 20px;
+}
+#times-cont{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:center;
+    margin-top: 20px;
+    text-align: center;
+    color: darkblue;
+  
+
+} 
+#cups{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column: 2;
+    height: 50px;
+    width: 50px;
+}
